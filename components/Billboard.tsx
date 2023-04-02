@@ -14,10 +14,10 @@ const Billboard = () => {
     const handleOpenModal = useCallback(() => {
         openModal(data?.id)
     },[openModal,data?.id])
-    const [traducido, setTraducido] = useState("")
+    //const [traducido, setTraducido] = useState("")
 
 
-
+/*
     useEffect(() => {
 
     async function traducir (obj:string)  {
@@ -28,7 +28,7 @@ const Billboard = () => {
     }
     console.log(data?.description)
     }, [])
-
+ */
 
 
 
